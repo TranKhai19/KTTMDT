@@ -1,0 +1,535 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|e:\\asp.net-c-sharp-ecommerce-toyshop-\\toyshop\\toyshop\\toyshop\\user\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\product.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\product.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\menu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\menu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShopDB.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\product.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\product.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\users.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\users.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\users.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\users.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\orderstatus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\orderstatus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\admin.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\admin.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\admin\\dashboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\dashboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\menu.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\menu.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\user\\forgotpasssword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\forgotpasssword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\itextsharp.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\itextsharp.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\toyshop\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Menu.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx",
+              "RelativeToolTip": "ToyShop\\User\\Menu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T15:36:11.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToyShopDB.sql",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShopDB.sql",
+              "RelativeDocumentMoniker": "..\\..\\ToyShopDB.sql",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShopDB.sql",
+              "RelativeToolTip": "..\\..\\ToyShopDB.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-30T13:38:04.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.Carts.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-04T17:16:40.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.Categories.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Categories.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Categories.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-04T17:17:12.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Products.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Products.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-04T17:17:16.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.aspx.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Menu.aspx.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx.cs",
+              "RelativeToolTip": "ToyShop\\User\\Menu.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:51:30.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.aspx.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Cart.aspx.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx.cs",
+              "RelativeToolTip": "ToyShop\\User\\Cart.aspx.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwEEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:15:06.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Cart.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx",
+              "RelativeToolTip": "ToyShop\\User\\Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-04T17:14:21.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.aspx.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Product.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Product.aspx.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Product.aspx.cs",
+              "RelativeToolTip": "ToyShop\\Admin\\Product.aspx.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAmwJ0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:38:34.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Login.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Login.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Login.aspx",
+              "RelativeToolTip": "ToyShop\\User\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-01T14:22:36.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Login.aspx.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Login.aspx.cs",
+              "RelativeToolTip": "ToyShop\\User\\Login.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvz4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:22:40.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.aspx.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Category.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Category.aspx.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Category.aspx.cs",
+              "RelativeToolTip": "ToyShop\\Admin\\Category.aspx.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowBgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:58:17.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Product.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Product.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Product.aspx",
+              "RelativeToolTip": "ToyShop\\Admin\\Product.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T16:42:43.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.aspx.designer.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Product.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Product.aspx.designer.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Product.aspx.designer.cs",
+              "RelativeToolTip": "ToyShop\\Admin\\Product.aspx.designer.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:10:25.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Admin.Master.designer.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master.designer.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Admin.Master.designer.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master.designer.cs",
+              "RelativeToolTip": "ToyShop\\Admin\\Admin.Master.designer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:38:15.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderStatus.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\OrderStatus.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\OrderStatus.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\OrderStatus.aspx",
+              "RelativeToolTip": "ToyShop\\Admin\\OrderStatus.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-01T14:38:32.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Admin.Master",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master",
+              "RelativeToolTip": "ToyShop\\Admin\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-01T14:19:07.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Category.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Category.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Category.aspx",
+              "RelativeToolTip": "ToyShop\\Admin\\Category.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T16:45:44.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Users.aspx.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Users.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Users.aspx.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Users.aspx.cs",
+              "RelativeToolTip": "ToyShop\\Admin\\Users.aspx.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:38:40.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Users.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Users.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Users.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Users.aspx",
+              "RelativeToolTip": "ToyShop\\Admin\\Users.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T14:26:14.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Dashboard.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx",
+              "RelativeToolTip": "ToyShop\\Admin\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T16:09:52.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Dashboard.aspx.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx.cs",
+              "RelativeToolTip": "ToyShop\\Admin\\Dashboard.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:45:24.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Admin\\Admin.Master.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Admin.Master.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master.cs",
+              "RelativeToolTip": "ToyShop\\Admin\\Admin.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:30:38.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Connection.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Connection.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Connection.cs",
+              "RelativeToolTip": "ToyShop\\Connection.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwGkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:25:16.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.Master",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\User.Master",
+              "RelativeDocumentMoniker": "ToyShop\\User\\User.Master",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\User.Master",
+              "RelativeToolTip": "ToyShop\\User\\User.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T15:35:44.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Dashboard.aspx.designer.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Dashboard.aspx.designer.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx.designer.cs",
+              "RelativeToolTip": "ToyShop\\Admin\\Dashboard.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T16:45:25.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Contact.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Contact.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Contact.aspx",
+              "RelativeToolTip": "ToyShop\\User\\Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T16:45:52.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Menu.aspx.designer.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx.designer.cs",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Menu.aspx.designer.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx.designer.cs",
+              "RelativeToolTip": "ToyShop\\User\\Menu.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:53:34.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ToyShop\\Global.asax.cs",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Global.asax.cs",
+              "RelativeToolTip": "ToyShop\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:26:08.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "itextsharp.dll",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\itextsharp.dll",
+              "RelativeDocumentMoniker": "ToyShop\\itextsharp.dll",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\itextsharp.dll",
+              "RelativeToolTip": "ToyShop\\itextsharp.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-04-30T14:26:08.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\packages.config",
+              "RelativeDocumentMoniker": "ToyShop\\packages.config",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\packages.config",
+              "RelativeToolTip": "ToyShop\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-30T14:26:06.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Web.config",
+              "RelativeDocumentMoniker": "ToyShop\\Web.config",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\Web.config",
+              "RelativeToolTip": "ToyShop\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-30T14:08:27.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "forgotpasssword.aspx",
+              "DocumentMoniker": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\forgotpasssword.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\User\\forgotpasssword.aspx",
+              "ToolTip": "E:\\ASP.NET-C-Sharp-Ecommerce-ToyShop-\\ToyShop\\ToyShop\\ToyShop\\User\\forgotpasssword.aspx",
+              "RelativeToolTip": "ToyShop\\User\\forgotpasssword.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T15:36:08.957Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
