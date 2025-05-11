@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
     <%
-        string imageUrl = Session["ImageUrl"].ToString();;
+        string imageUrl = Session["ImageUrl"] != null ? Session["ImageUrl"].ToString() : "defaultImageUrl";
         
     %>
 

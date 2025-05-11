@@ -73,29 +73,24 @@ namespace ToyShop.User
             {
                 try
                 {
-                    bool isCartItemUpdated = false;
-                    int quantityInCart = isItemExistInCart(Convert.ToInt32(e.CommandArgument));
-                    if (quantityInCart == 0)
-                    {
-                        // Thêm sản phẩm mới vào giỏ hàng
-                        con = new SqlConnection(Connection.GetConnectionString());
-                        cmd = new SqlCommand("Cart_Crud", con);
-                        cmd.Parameters.AddWithValue("@Action", "INSERT");
-                        cmd.Parameters.AddWithValue("@ProductId", e.CommandArgument);
-                        cmd.Parameters.AddWithValue("@Quantity", 1);
-                        cmd.Parameters.AddWithValue("@UserId", Session["userId"]);
-                        cmd.CommandType = CommandType.StoredProcedure;
+                    int productId = Convert.ToInt32(e.CommandArgument);
+                    int userId = Convert.ToInt32(Session["userId"]);
+                    int quantityInCart = isItemExistInCart(productId);
 
-                        con.Open();
-                        cmd.ExecuteNonQuery();
-                        con.Close();
-                    }
-                    else
+                    using (SqlConnection con = new SqlConnection(Connection.GetConnectionString()))
                     {
-                        // Cập nhật số lượng sản phẩm đã có trong giỏ hàng
-                        Utils utils = new Utils();
-                        isCartItemUpdated = utils.updateCartQuantity(quantityInCart + 1,
-                            Convert.ToInt32(e.CommandArgument), Convert.ToInt32(Session["userId"]));
+                        using (SqlCommand cmd = new SqlCommand("Cart_Crud", con))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.AddWithValue("@Action", "INSERT"); // Luôn dùng INSERT vì stored procedure xử lý logic tồn tại
+                            cmd.Parameters.AddWithValue("@ProductId", productId);
+                            cmd.Parameters.AddWithValue("@Quantity", 1); // Tăng 1 đơn vị mỗi lần bấm
+                            cmd.Parameters.AddWithValue("@UserId", userId);
+
+                            con.Open();
+                            cmd.ExecuteNonQuery();
+                            con.Close();
+                        }
                     }
 
                     lblMsg.Visible = true;
@@ -124,19 +119,24 @@ namespace ToyShop.User
             int quantity = 0;
             try
             {
-                con = new SqlConnection(Connection.GetConnectionString());
-                cmd = new SqlCommand("Cart_Crud", con);
-                cmd.Parameters.AddWithValue("@Action", "GETBYID");
-                cmd.Parameters.AddWithValue("@ProductId", productId);
-                cmd.Parameters.AddWithValue("@UserId", Session["userId"]);
-                cmd.CommandType = CommandType.StoredProcedure;
-                sda = new SqlDataAdapter(cmd);
-                dt = new DataTable();
-                sda.Fill(dt);
-
-                if (dt.Rows.Count > 0)
+                using (SqlConnection con = new SqlConnection(Connection.GetConnectionString()))
                 {
-                    quantity = Convert.ToInt32(dt.Rows[0]["Quantity"]);
+                    using (SqlCommand cmd = new SqlCommand("Cart_Crud", con))
+                    {
+                        cmd.Parameters.AddWithValue("@Action", "GETBYID");
+                        cmd.Parameters.AddWithValue("@ProductId", productId);
+                        cmd.Parameters.AddWithValue("@UserId", Session["userId"]);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                        {
+                            DataTable dt = new DataTable();
+                            sda.Fill(dt);
+                            if (dt.Rows.Count > 0)
+                            {
+                                quantity = Convert.ToInt32(dt.Rows[0]["Quantity"]);
+                            }
+                        }
+                    }
                 }
             }
             catch (Exception ex)

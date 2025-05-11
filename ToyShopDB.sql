@@ -67,7 +67,7 @@ CREATE TABLE [Payment](
 	[PaymentMode] [varchar](50) NULL
 )
 
-ALTER PROCEDURE User_Crud
+CREATE PROCEDURE User_Crud
     @Action NVARCHAR(20),
     @UserId INT = NULL,
     @Name NVARCHAR(100) = NULL,
@@ -119,7 +119,7 @@ BEGIN
 END
 
 
-ALTER PROCEDURE Cart_Crud
+CREATE OR ALTER PROCEDURE Cart_Crud
     @Action NVARCHAR(10),
     @CartId INT = NULL,
     @ProductId INT = NULL,
@@ -135,9 +135,9 @@ BEGIN
             C.CartId,
             C.ProductId,
             P.Name AS Name,
-            P.ImageUrl as ImageUrl,
+            P.ImageUrl AS ImageUrl,
             P.Price,
-            P.Quantity as PrdQty,
+            P.Quantity AS PrdQty,
             C.Quantity,
             C.UserId
         FROM Carts C
@@ -146,20 +146,38 @@ BEGIN
     END
     ELSE IF @Action = 'INSERT'
     BEGIN
-        INSERT INTO Carts (ProductId, Quantity, UserId)
-        VALUES (@ProductId, @Quantity, @UserId);
-    END
+        -- Kiểm tra xem sản phẩm đã tồn tại trong giỏ hàng hay chưa
+        IF EXISTS (SELECT 1 FROM Carts WHERE ProductId = @ProductId AND UserId = @UserId)
+        BEGIN
+            -- Nếu tồn tại, cập nhật số lượng
+            UPDATE Carts
+            SET Quantity = Quantity + @Quantity
+            WHERE ProductId = @ProductId AND UserId = @UserId;
+        END
+        ELSE
+        BEGIN
+            -- Nếu chưa tồn tại, thêm mới
+            INSERT INTO Carts (ProductId, Quantity, UserId)
+            VALUES (@ProductId, @Quantity, @UserId);
+        END
+    END         
     ELSE IF @Action = 'UPDATE'
     BEGIN
+        -- Cập nhật số lượng dựa trên ProductId và UserId
         UPDATE Carts
-        SET ProductId = @ProductId,
-            Quantity = @Quantity,
-            UserId = @UserId
-        WHERE CartId = @CartId;
+        SET Quantity = @Quantity
+        WHERE ProductId = @ProductId AND UserId = @UserId;
     END
     ELSE IF @Action = 'DELETE'
     BEGIN
         DELETE FROM Carts WHERE ProductId = @ProductId AND UserId = @UserId;
+    END
+    ELSE IF @Action = 'GETBYID'
+    BEGIN
+        -- Lấy thông tin sản phẩm trong giỏ hàng
+        SELECT Quantity
+        FROM Carts
+        WHERE ProductId = @ProductId AND UserId = @UserId;
     END
 END
 
@@ -283,7 +301,7 @@ END
 
 
 
-ALTER PROCEDURE Category_Crud
+CREATE PROCEDURE Category_Crud
     @Action NVARCHAR(20),
     @CategoryId INT = NULL,
     @Name VARCHAR(50) = NULL,
@@ -323,7 +341,7 @@ BEGIN
 END
 
 
-Alter PROCEDURE Product_Crud
+CREATE PROCEDURE Product_Crud
     @Action NVARCHAR(20),
     @ProductId INT = NULL,
     @Name VARCHAR(50) = NULL,
@@ -385,7 +403,7 @@ SELECT * FROM Products
 SELECT * FROM Categories
 
 
-ALTER PROCEDURE Dashboared
+CREATE PROCEDURE Dashboared
     @Action NVARCHAR(50)
 AS
 BEGIN
@@ -412,4 +430,187 @@ VALUES ('Test sản phẩm', 'Mô tả test', 100000, 10, 'test.jpg', 1, 1, GETD
 EXEC Product_Crud @Action = 'ACTIVEPROD'
 
 
+CREATE PROCEDURE ContactSp
+    @Action       NVARCHAR(10), -- 'INSERT', 'UPDATE', 'DELETE', 'SELECT', 'SELECT_ALL'
+    @ContactId    INT = NULL,
+    @Name         VARCHAR(50) = NULL,
+    @Email        VARCHAR(50) = NULL,
+    @Subject      VARCHAR(200) = NULL,
+    @Message      VARCHAR(MAX) = NULL,
+    @CreatedDate  DATETIME = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
 
+    IF @Action = 'INSERT'
+    BEGIN
+        INSERT INTO Contact ([Name], [Email], [Subject], [Message], [CreatedDate])
+        VALUES (@Name, @Email, @Subject, @Message, @CreatedDate);
+    END
+
+    ELSE IF @Action = 'UPDATE'
+    BEGIN
+        UPDATE Contact
+        SET 
+            [Name] = @Name,
+            [Email] = @Email,
+            [Subject] = @Subject,
+            [Message] = @Message,
+            [CreatedDate] = @CreatedDate
+        WHERE ContactId = @ContactId;
+    END
+
+    ELSE IF @Action = 'DELETE'
+    BEGIN
+        DELETE FROM Contact
+        WHERE ContactId = @ContactId;
+    END
+
+    ELSE IF @Action = 'SELECT'
+    BEGIN
+        SELECT * FROM Contact
+        WHERE ContactId = @ContactId;
+    END
+
+    ELSE IF @Action = 'SELECT_ALL'
+    BEGIN
+        SELECT * FROM Contact;
+    END
+END
+
+CREATE OR ALTER PROCEDURE Invoices
+    @Action         NVARCHAR(20),
+    @OrderDetailsId INT = NULL,
+    @OrderNo        VARCHAR(MAX) = NULL,
+    @ProductId      INT = NULL,
+    @Quantity       INT = NULL,
+    @UserId         INT = NULL,
+    @Status         VARCHAR(50) = NULL,
+    @PaymentId      INT = NULL,
+    @OrderDate      DATETIME = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @Action = 'INSERT'
+    BEGIN
+        INSERT INTO Orders ([OrderNo], [ProductId], [Quantity], [UserId], [Status], [PaymentId], [OrderDate])
+        VALUES (@OrderNo, @ProductId, @Quantity, @UserId, @Status, @PaymentId, @OrderDate);
+    END
+
+    ELSE IF @Action = 'UPDATE'
+    BEGIN
+        UPDATE Orders
+        SET 
+            [OrderNo] = @OrderNo,
+            [ProductId] = @ProductId,
+            [Quantity] = @Quantity,
+            [UserId] = @UserId,
+            [Status] = @Status,
+            [PaymentId] = @PaymentId,
+            [OrderDate] = @OrderDate
+        WHERE [OrderDetailsId] = @OrderDetailsId;
+    END
+
+    ELSE IF @Action = 'DELETE'
+    BEGIN
+        DELETE FROM Orders
+        WHERE [OrderDetailsId] = @OrderDetailsId;
+    END
+
+    ELSE IF @Action = 'SELECT'
+    BEGIN
+        SELECT * FROM Orders
+        WHERE [OrderDetailsId] = @OrderDetailsId;
+    END
+
+    ELSE IF @Action = 'SELECT_ALL'
+    BEGIN
+        SELECT * FROM Orders;
+    END
+
+    ELSE IF @Action = 'GETSTATUS'
+    BEGIN
+        SELECT 
+            O.OrderDetailsId,
+            O.OrderNo,
+            O.ProductId,
+            P.Name AS ProductName,
+            O.Quantity,
+            O.UserId,
+            O.Status,
+            O.PaymentId,
+            O.OrderDate
+        FROM Orders O
+        INNER JOIN Products P ON O.ProductId = P.ProductId
+        ORDER BY O.OrderDate DESC;
+    END
+
+    ELSE IF @Action = 'STATUSBYID'
+    BEGIN
+        SELECT 
+            O.OrderDetailsId,
+            O.Status
+        FROM Orders O
+        WHERE O.OrderDetailsId = @OrderDetailsId;
+    END
+
+    ELSE IF @Action = 'UPDTSTATUS'
+    BEGIN
+        UPDATE Orders
+        SET Status = @Status
+        WHERE OrderDetailsId = @OrderDetailsId;
+    END
+END
+
+CREATE TABLE OrderNotifications (
+    NotificationId INT IDENTITY(1,1) PRIMARY KEY,
+    OrderDetailsId INT,
+    PaymentId INT,
+    UserId INT,
+    NotificationType NVARCHAR(50),
+    CreatedDate DATETIME
+);
+
+
+CREATE PROCEDURE Save_Payment
+    @Name VARCHAR(50),
+    @CardNo VARCHAR(50),
+    @ExpiryDate VARCHAR(50),
+    @CvvNo INT,
+    @Address VARCHAR(MAX),
+    @PaymentMode VARCHAR(50),
+    @InsertedId INT OUTPUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Payment (Name, CardNo, ExpiryDate, CvvNo, Address, PaymentMode)
+    VALUES (@Name, @CardNo, @ExpiryDate, @CvvNo, @Address, @PaymentMode);
+
+    SET @InsertedId = SCOPE_IDENTITY();
+END
+
+DECLARE @InsertedId INT;
+EXEC Save_Payment 
+    @Name = 'Test User',
+    @CardNo = '****1234',
+    @ExpiryDate = '12/2025',
+    @CvvNo = 123,
+    @Address = '123 Test Street',
+    @PaymentMode = 'card',
+    @InsertedId = @InsertedId OUTPUT;
+SELECT @InsertedId AS InsertedId;
+SELECT * FROM Payment WHERE PaymentId = @InsertedId;
+
+DECLARE @InsertedId INT;
+EXEC Save_Payment 
+    @Name = 'Test User',
+    @CardNo = NULL,
+    @ExpiryDate = NULL,
+    @CvvNo = NULL,
+    @Address = '123 Test Street',
+    @PaymentMode = 'cod',
+    @InsertedId = @InsertedId OUTPUT;
+SELECT @InsertedId AS InsertedId;
+SELECT * FROM Payment WHERE PaymentId = @InsertedId;

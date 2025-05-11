@@ -142,7 +142,7 @@
                         <div class="box">
                             <div class="detail-box">
                                 <p>
-                                    Tôi thích mua sắm trên trang web này! Lựa chọn rất tuyệt vời và quy trình thanh toán rất dễ dàng. 
+                                   "Tôi thích mua sắm trên trang web này! Lựa chọn rất tuyệt vời và quy trình thanh toán rất dễ dàng. 
                                     Thêm vào đó, đơn hàng của tôi luôn đến đúng hạn. Rất khuyến khích!"                                
                                 </p>
                                 <h6>Hùng 

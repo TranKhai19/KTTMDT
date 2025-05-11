@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\ToyShop",
-    "\\ToyShop\\ToyShop",
-    "\\ToyShop\\ToyShop\\ToyShop",
-    "\\ToyShop\\ToyShop\\ToyShop\\User"
+    "\\ToyShop\\ToyShop"
   ],
-  "SelectedNode": "\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx.cs",
+  "SelectedNode": "\\ToyShop\\ToyShop\\ToyShop.sln",
   "PreviewInSolutionExplorer": false
 }
