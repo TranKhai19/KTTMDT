@@ -3,58 +3,50 @@
   "WorkspaceRootPath": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|d:\\tmdt\\kttmdt\\toyshop\\toyshop\\toyshop\\templatefiles\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\templatefiles\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|d:\\tmdt\\kttmdt\\toyshop\\toyshop\\toyshop\\templatefiles\\css\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\templatefiles\\css\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|d:\\tmdt\\kttmdt\\toyshop\\toyshop\\toyshop\\templatefiles\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\templatefiles\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|d:\\tmdt\\kttmdt\\toyshop\\toyshop\\toyshop\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|d:\\tmdt\\kttmdt\\toyshop\\toyshop\\toyshop\\assets\\css\\bootstrap\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\assets\\css\\bootstrap\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|d:\\tmdt\\kttmdt\\toyshop\\toyshop\\toyshop\\user\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TMDT\\KTTMDT\\ToyShopDB.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\admin\\orderstatus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\orderstatus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|d:\\tmdt\\kttmdt\\toyshop\\toyshop\\toyshop\\user\\menu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\menu.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\admin\\orderstatus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\orderstatus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|d:\\tmdt\\kttmdt\\toyshop\\toyshop\\toyshop\\user\\invoice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\invoice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\admin\\orderstatus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\orderstatus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\admin\\orderstatus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\orderstatus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\templatefiles\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\templatefiles\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -97,10 +89,6 @@
       "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\user\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\user\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\admin\\dashboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\admin\\dashboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -127,6 +115,16 @@
     {
       "AbsoluteMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\toyshop\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{F229A67A-B3B9-4D14-AFC9-B4BA685B7719}|ToyShop\\ToyShop.csproj|solutionrelative:toyshop\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToyShop\\User\\Contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TMDT\\KTTMDT\\ToyShopDB.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TMDT\\KTTMDT\\ToyShopDB.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -136,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -161,95 +159,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "style.scss",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\TemplateFiles\\css\\style.scss",
-              "RelativeDocumentMoniker": "ToyShop\\TemplateFiles\\css\\style.scss",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\TemplateFiles\\css\\style.scss",
-              "RelativeToolTip": "ToyShop\\TemplateFiles\\css\\style.scss",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-05-11T14:29:03.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "responsive.css",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\TemplateFiles\\css\\responsive.css",
-              "RelativeDocumentMoniker": "ToyShop\\TemplateFiles\\css\\responsive.css",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\TemplateFiles\\css\\responsive.css",
-              "RelativeToolTip": "ToyShop\\TemplateFiles\\css\\responsive.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-11T14:28:59.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\TemplateFiles\\css\\style.css",
-              "RelativeDocumentMoniker": "ToyShop\\TemplateFiles\\css\\style.css",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\TemplateFiles\\css\\style.css",
-              "RelativeToolTip": "ToyShop\\TemplateFiles\\css\\style.css",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-11T14:28:32.412Z",
+              "Title": "Menu.aspx.cs",
+              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Menu.aspx.cs",
+              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx.cs",
+              "RelativeToolTip": "ToyShop\\User\\Menu.aspx.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAkwHAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T09:20:40.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\assets\\css\\style.css",
-              "RelativeDocumentMoniker": "ToyShop\\assets\\css\\style.css",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\assets\\css\\style.css",
-              "RelativeToolTip": "ToyShop\\assets\\css\\style.css",
-              "ViewState": "AgIAAJ4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-11T14:27:40.813Z",
+              "Title": "Invoice.aspx",
+              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Invoice.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Invoice.aspx",
+              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Invoice.aspx",
+              "RelativeToolTip": "ToyShop\\User\\Invoice.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-12T09:20:29.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToyShopDB.sql ",
+              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShopDB.sql",
+              "RelativeDocumentMoniker": "..\\..\\ToyShopDB.sql",
+              "ToolTip": "ToyShopDB.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T09:00:17.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "ToyShop\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
-              "RelativeToolTip": "ToyShop\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-11T14:27:39.174Z",
+              "Title": "Payment.aspx",
+              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Payment.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Payment.aspx",
+              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Payment.aspx",
+              "RelativeToolTip": "ToyShop\\User\\Payment.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-08T09:03:31.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Cart.aspx",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx",
-              "RelativeDocumentMoniker": "ToyShop\\User\\Cart.aspx",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx",
-              "RelativeToolTip": "ToyShop\\User\\Cart.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-04T17:14:21.378Z"
+              "DocumentIndex": 5,
+              "Title": "Payment.aspx.cs",
+              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Payment.aspx.cs",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Payment.aspx.cs",
+              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Payment.aspx.cs",
+              "RelativeToolTip": "ToyShop\\User\\Payment.aspx.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAuwIwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:04:44.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Dashboard.aspx",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx",
-              "RelativeDocumentMoniker": "ToyShop\\Admin\\Dashboard.aspx",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx",
-              "RelativeToolTip": "ToyShop\\Admin\\Dashboard.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-30T16:09:52.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Cart.aspx.cs",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx.cs",
               "RelativeDocumentMoniker": "ToyShop\\User\\Cart.aspx.cs",
@@ -261,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "Menu.aspx",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx",
               "RelativeDocumentMoniker": "ToyShop\\User\\Menu.aspx",
@@ -269,56 +241,37 @@
               "RelativeToolTip": "ToyShop\\User\\Menu.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-30T15:36:11.656Z"
+              "WhenOpened": "2025-04-30T15:36:11.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ToyShopDB.sql",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShopDB.sql",
-              "RelativeDocumentMoniker": "..\\..\\ToyShopDB.sql",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShopDB.sql",
-              "RelativeToolTip": "..\\..\\ToyShopDB.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-05T09:00:17.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "OrderStatus.aspx.cs",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\OrderStatus.aspx.cs",
               "RelativeDocumentMoniker": "ToyShop\\Admin\\OrderStatus.aspx.cs",
               "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\OrderStatus.aspx.cs",
               "RelativeToolTip": "ToyShop\\Admin\\OrderStatus.aspx.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAQwGUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T09:49:41.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Payment.aspx.cs",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Payment.aspx.cs",
-              "RelativeDocumentMoniker": "ToyShop\\User\\Payment.aspx.cs",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Payment.aspx.cs",
-              "RelativeToolTip": "ToyShop\\User\\Payment.aspx.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAIwI4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T09:04:44.057Z",
+              "WhenOpened": "2025-05-08T09:49:41.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "dbo.Carts.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-08T09:13:35.086Z"
+              "DocumentIndex": 13,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\Admin\\Dashboard.aspx",
+              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx",
+              "RelativeToolTip": "ToyShop\\Admin\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T16:09:52.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "OrderStatus.aspx",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\OrderStatus.aspx",
               "RelativeDocumentMoniker": "ToyShop\\Admin\\OrderStatus.aspx",
@@ -330,7 +283,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx",
+              "RelativeDocumentMoniker": "ToyShop\\User\\Cart.aspx",
+              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Cart.aspx",
+              "RelativeToolTip": "ToyShop\\User\\Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-04T17:14:21.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "responsive.css",
+              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\TemplateFiles\\css\\responsive.css",
+              "RelativeDocumentMoniker": "ToyShop\\TemplateFiles\\css\\responsive.css",
+              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\TemplateFiles\\css\\responsive.css",
+              "RelativeToolTip": "ToyShop\\TemplateFiles\\css\\responsive.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-11T14:28:59.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dbo.Carts.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToyShopDB/True/SqlTable/dbo.Carts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-08T09:13:35.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Login.aspx",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Login.aspx",
               "RelativeDocumentMoniker": "ToyShop\\User\\Login.aspx",
@@ -342,19 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Payment.aspx",
-              "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Payment.aspx",
-              "RelativeDocumentMoniker": "ToyShop\\User\\Payment.aspx",
-              "ToolTip": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Payment.aspx",
-              "RelativeToolTip": "ToyShop\\User\\Payment.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-08T09:03:31.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "User.Master",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\User.Master",
               "RelativeDocumentMoniker": "ToyShop\\User\\User.Master",
@@ -362,11 +336,12 @@
               "RelativeToolTip": "ToyShop\\User\\User.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-30T15:35:44.746Z"
+              "WhenOpened": "2025-04-30T15:35:44.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Profile.aspx",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Profile.aspx",
               "RelativeDocumentMoniker": "ToyShop\\User\\Profile.aspx",
@@ -378,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "About.aspx",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\About.aspx",
               "RelativeDocumentMoniker": "ToyShop\\User\\About.aspx",
@@ -390,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "Admin.Master.designer.cs",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master.designer.cs",
               "RelativeDocumentMoniker": "ToyShop\\Admin\\Admin.Master.designer.cs",
@@ -402,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "Admin.Master",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master",
               "RelativeDocumentMoniker": "ToyShop\\Admin\\Admin.Master",
@@ -414,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "Category.aspx",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Category.aspx",
               "RelativeDocumentMoniker": "ToyShop\\Admin\\Category.aspx",
@@ -426,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "Dashboard.aspx.cs",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx.cs",
               "RelativeDocumentMoniker": "ToyShop\\Admin\\Dashboard.aspx.cs",
@@ -438,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "Admin.Master.cs",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Admin.Master.cs",
               "RelativeDocumentMoniker": "ToyShop\\Admin\\Admin.Master.cs",
@@ -450,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "Dashboard.aspx.designer.cs",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Admin\\Dashboard.aspx.designer.cs",
               "RelativeDocumentMoniker": "ToyShop\\Admin\\Dashboard.aspx.designer.cs",
@@ -462,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "Contact.aspx",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Contact.aspx",
               "RelativeDocumentMoniker": "ToyShop\\User\\Contact.aspx",
@@ -474,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "Menu.aspx.designer.cs",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\Menu.aspx.designer.cs",
               "RelativeDocumentMoniker": "ToyShop\\User\\Menu.aspx.designer.cs",
@@ -486,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Global.asax.cs",
               "RelativeDocumentMoniker": "ToyShop\\Global.asax.cs",
@@ -498,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
               "Title": "itextsharp.dll",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\itextsharp.dll",
               "RelativeDocumentMoniker": "ToyShop\\itextsharp.dll",
@@ -509,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 28,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\packages.config",
               "RelativeDocumentMoniker": "ToyShop\\packages.config",
@@ -521,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\Web.config",
               "RelativeDocumentMoniker": "ToyShop\\Web.config",
@@ -534,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
               "Title": "forgotpasssword.aspx",
               "DocumentMoniker": "D:\\TMDT\\KTTMDT\\ToyShop\\ToyShop\\ToyShop\\User\\forgotpasssword.aspx",
               "RelativeDocumentMoniker": "ToyShop\\User\\forgotpasssword.aspx",

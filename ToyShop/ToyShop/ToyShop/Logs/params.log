@@ -1,0 +1,13 @@
+11/05/2025 10:01:59 CH: OrderPayment: Name=, CardNo=, ExpiryDate=, CvvNo=NULL, Address=ádasd, PaymentMode=cod
+12/05/2025 1:14:03 SA: OrderPayment: Name=Tran Duy Khai, CardNo=************7578, ExpiryDate=02/2029, CvvNo=113, Address=K388/19 Tran Cao Van, Xuan Ha ward, Thanh Khe district, PaymentMode=card
+12/05/2025 12:46:41 CH: OrderPayment: Name=, CardNo=, ExpiryDate=, CvvNo=NULL, Address=aasdasd, PaymentMode=cod
+12/05/2025 12:46:50 CH: OrderPayment: Name=Tran Duy Khai, CardNo=************7578, ExpiryDate=02/2029, CvvNo=113, Address=asdasdasd, PaymentMode=card
+12/05/2025 12:46:56 CH: OrderPayment: Name=, CardNo=, ExpiryDate=, CvvNo=NULL, Address=aasdasdas, PaymentMode=cod
+12/05/2025 1:25:00 CH: OrderPayment: OrderId=1, Name=, CardNo=, ExpiryDate=, CvvNo=NULL, Address=ádasdasd, PaymentMethod=cod, Amount=375000
+12/05/2025 2:44:37 CH: OrderPayment: OrderId=2, Name=Tran Duy Khai, CardNo=************7578, ExpiryDate=02/2029, CvvNo=113, Address=K388/19 Tran Cao Van, Xuan Ha ward, Thanh Khe district, PaymentMethod=card, Amount=195000
+12/05/2025 2:46:51 CH: OrderPayment: OrderId=3, Name=, CardNo=, ExpiryDate=, CvvNo=NULL, Address=sdsdf, PaymentMethod=cod, Amount=195000
+12/05/2025 2:46:58 CH: OrderPayment: OrderId=4, Name=Tran Duy Khai, CardNo=************7578, ExpiryDate=02/2029, CvvNo=113, Address=sdsdvds, PaymentMethod=card, Amount=195000
+12/05/2025 2:50:50 CH: OrderPayment: OrderId=5, Name=Tran Duy Khai, CardNo=************1111, ExpiryDate=02/2029, CvvNo=123, Address=K388/19 Tran Cao Van, Xuan Ha ward, Thanh Khe district, PaymentMethod=card, Amount=195000
+12/05/2025 2:55:05 CH: OrderPayment: OrderId=6, Name=Tran Duy Khai, CardNo=************1111, ExpiryDate=02/2029, CvvNo=123, Address=K388/19 Tran Cao Van, Xuan Ha ward, Thanh Khe district, PaymentMethod=card, Amount=195000
+12/05/2025 2:55:11 CH: OrderPayment: OrderId=7, Name=, CardNo=, ExpiryDate=, CvvNo=NULL, Address=ádadsa, PaymentMethod=cod, Amount=195000
+12/05/2025 4:04:59 CH: OrderPayment: OrderId=8, Name=, CardNo=, ExpiryDate=, CvvNo=NULL, Address=s1112ecd, PaymentMethod=cod, Amount=30000

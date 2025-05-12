@@ -38,3 +38,43 @@
    at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
    at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
    at ToyShop.User.Payment.OrderPayment(String name, String cardNo, String expiryDate, String cvv, String address, String paymentMode) in D:\TMDT\KTTMDT\ToyShop\ToyShop\ToyShop\User\Payment.aspx.cs:line 152
+11/05/2025 10:01:59 CH: OrderPayment - Procedure or function Save_Payment has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ToyShop.User.Payment.OrderPayment(String name, String cardNo, String expiryDate, String cvv, String address, String paymentMode) in D:\TMDT\KTTMDT\ToyShop\ToyShop\ToyShop\User\Payment.aspx.cs:line 190
+12/05/2025 1:25:00 CH: OrderPayment - Procedure or function 'Save_Payment' expects parameter '@OrderId', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ToyShop.User.Payment.OrderPayment(String name, String cardNo, String expiryDate, String cvv, String address, String paymentMode) in D:\TMDT\KTTMDT\ToyShop\ToyShop\ToyShop\User\Payment.aspx.cs:line 226
+12/05/2025 2:44:37 CH: OrderPayment - Invalid object name 'Payments'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ToyShop.User.Payment.OrderPayment(String name, String cardNo, String expiryDate, String cvv, String address, String paymentMode) in D:\TMDT\KTTMDT\ToyShop\ToyShop\ToyShop\User\Payment.aspx.cs:line 222
+12/05/2025 2:50:50 CH: UpdateQuantity - There is already an open DataReader associated with this Command which must be closed first.
+12/05/2025 2:50:50 CH: Rollback failed - There is already an open DataReader associated with this Command which must be closed first.
+12/05/2025 2:55:05 CH: UpdateQuantity - Không tìm thấy sản phẩm 1.
+12/05/2025 2:55:05 CH: OrderPayment - Không tìm thấy sản phẩm 1.
+   at ToyShop.User.Payment.UpdateQuantity(Int32 _productId, Int32 _quantity, SqlTransaction sqlTransaction, SqlConnection sqlConnection) in D:\TMDT\KTTMDT\ToyShop\ToyShop\ToyShop\User\Payment.aspx.cs:line 377
+   at ToyShop.User.Payment.OrderPayment(String name, String cardNo, String expiryDate, String cvv, String address, String paymentMode) in D:\TMDT\KTTMDT\ToyShop\ToyShop\ToyShop\User\Payment.aspx.cs:line 243
+12/05/2025 2:55:11 CH: UpdateQuantity - Không tìm thấy sản phẩm 1.
+12/05/2025 2:55:11 CH: OrderPayment - Không tìm thấy sản phẩm 1.
+   at ToyShop.User.Payment.UpdateQuantity(Int32 _productId, Int32 _quantity, SqlTransaction sqlTransaction, SqlConnection sqlConnection) in D:\TMDT\KTTMDT\ToyShop\ToyShop\ToyShop\User\Payment.aspx.cs:line 377
+   at ToyShop.User.Payment.OrderPayment(String name, String cardNo, String expiryDate, String cvv, String address, String paymentMode) in D:\TMDT\KTTMDT\ToyShop\ToyShop\ToyShop\User\Payment.aspx.cs:line 243

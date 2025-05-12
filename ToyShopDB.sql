@@ -573,21 +573,48 @@ CREATE TABLE OrderNotifications (
 );
 
 
-CREATE PROCEDURE Save_Payment
-    @Name VARCHAR(50),
-    @CardNo VARCHAR(50),
-    @ExpiryDate VARCHAR(50),
-    @CvvNo INT,
-    @Address VARCHAR(MAX),
-    @PaymentMode VARCHAR(50),
+ALTER PROCEDURE Save_Payment
+    @OrderId INT,
+    @Name NVARCHAR(100) = NULL,
+    @CardNo NVARCHAR(16) = NULL,
+    @ExpiryDate NVARCHAR(10) = NULL,
+    @CvvNo NVARCHAR(4) = NULL,
+    @Address NVARCHAR(500) = NULL,
+    @PaymentMethod VARCHAR(10),
+    @Amount DECIMAL(18, 2),
+    @PaymentStatus VARCHAR(20) = 'PENDING',
     @InsertedId INT OUTPUT
 AS
 BEGIN
     SET NOCOUNT ON;
 
-    INSERT INTO Payment (Name, CardNo, ExpiryDate, CvvNo, Address, PaymentMode)
-    VALUES (@Name, @CardNo, @ExpiryDate, @CvvNo, @Address, @PaymentMode);
+    -- Kiểm tra phương thức thanh toán
+    IF @PaymentMethod = 'CARD'
+    BEGIN
+        -- Kiểm tra nếu thiếu thông tin thẻ
+        IF @CvvNo IS NULL OR @CardNo IS NULL OR @ExpiryDate IS NULL
+        BEGIN
+            RAISERROR ('Thông tin thẻ không hợp lệ cho thanh toán qua thẻ.', 16, 1);
+            RETURN;
+        END
 
+        -- Logic cho thanh toán qua thẻ
+        INSERT INTO Payments (OrderId, Name, CardNo, ExpiryDate, Address, PaymentMethod, Amount, PaymentStatus, CreatedDate)
+        VALUES (@OrderId, @Name, @CardNo, @ExpiryDate, @Address, @PaymentMethod, @Amount, @PaymentStatus, GETDATE());
+    END
+    ELSE IF @PaymentMethod = 'COD'
+    BEGIN
+        -- Logic cho COD
+        INSERT INTO Payments (OrderId, Name, Address, PaymentMethod, Amount, PaymentStatus, CreatedDate)
+        VALUES (@OrderId, @Name, @Address, @PaymentMethod, @Amount, 'PENDING', GETDATE());
+    END
+    ELSE
+    BEGIN
+        RAISERROR ('Phương thức thanh toán không hợp lệ.', 16, 1);
+        RETURN;
+    END
+
+    -- Lấy ID của bản ghi vừa thêm
     SET @InsertedId = SCOPE_IDENTITY();
 END
 
@@ -614,3 +641,272 @@ EXEC Save_Payment
     @InsertedId = @InsertedId OUTPUT;
 SELECT @InsertedId AS InsertedId;
 SELECT * FROM Payment WHERE PaymentId = @InsertedId;
+
+
+-- Xóa bảng Payment cũ nếu không cần dữ liệu
+DROP TABLE IF EXISTS Payment;
+
+-- Tạo bảng Payments mới
+CREATE TABLE Payments (
+    PaymentId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    OrderId INT NOT NULL, -- Tham chiếu đến OrderDetailsId từ bảng Orders
+    Name NVARCHAR(100) NULL,
+    CardNo NVARCHAR(16) NULL,
+    ExpiryDate NVARCHAR(10) NULL,
+    Address NVARCHAR(500) NULL,
+    PaymentMethod NVARCHAR(10) NULL, -- 'CARD' hoặc 'COD'
+    Amount DECIMAL(18, 2) NOT NULL,
+    PaymentStatus NVARCHAR(20) NULL,
+    CreatedDate DATETIME NOT NULL
+);
+
+DROP PROCEDURE IF EXISTS Payment_Crud;
+
+CREATE TRIGGER TRG_Product_Delete
+ON Products
+AFTER DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+    DELETE FROM Carts
+    WHERE ProductId IN (SELECT ProductId FROM deleted);
+END;
+
+CREATE OR ALTER PROCEDURE Cart_Crud
+    @Action NVARCHAR(10),
+    @CartId INT = NULL,
+    @ProductId INT = NULL,
+    @Quantity INT = NULL,
+    @UserId INT = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @Action = 'SELECT'
+    BEGIN
+        SELECT 
+            C.CartId,
+            C.ProductId,
+            P.Name AS Name,
+            P.ImageUrl AS ImageUrl,
+            P.Price,
+            P.Quantity AS PrdQty,
+            C.Quantity,
+            C.UserId
+        FROM Carts C
+        INNER JOIN Products P ON C.ProductId = P.ProductId
+        WHERE C.UserId = @UserId;
+    END
+    ELSE IF @Action = 'INSERT'
+    BEGIN
+        -- Kiểm tra xem sản phẩm có tồn tại không
+        IF NOT EXISTS (SELECT 1 FROM Products WHERE ProductId = @ProductId)
+        BEGIN
+            RAISERROR ('Sản phẩm không tồn tại.', 16, 1);
+            RETURN;
+        END
+        -- Kiểm tra xem sản phẩm đã tồn tại trong giỏ hàng hay chưa
+        IF EXISTS (SELECT 1 FROM Carts WHERE ProductId = @ProductId AND UserId = @UserId)
+        BEGIN
+            -- Nếu tồn tại, cập nhật số lượng
+            UPDATE Carts
+            SET Quantity = Quantity + @Quantity
+            WHERE ProductId = @ProductId AND UserId = @UserId;
+        END
+        ELSE
+        BEGIN
+            -- Nếu chưa tồn tại, thêm mới
+            INSERT INTO Carts (ProductId, Quantity, UserId)
+            VALUES (@ProductId, @Quantity, @UserId);
+        END
+    END         
+    ELSE IF @Action = 'UPDATE'
+    BEGIN
+        UPDATE Carts
+        SET Quantity = @Quantity
+        WHERE ProductId = @ProductId AND UserId = @UserId;
+    END
+    ELSE IF @Action = 'DELETE'
+    BEGIN
+        DELETE FROM Carts WHERE ProductId = @ProductId AND UserId = @UserId;
+    END
+    ELSE IF @Action = 'GETBYID'
+    BEGIN
+        SELECT Quantity
+        FROM Carts
+        WHERE ProductId = @ProductId AND UserId = @UserId;
+    END
+END
+
+SELECT * FROM Products;
+
+DELETE FROM Carts
+WHERE ProductId NOT IN (SELECT ProductId FROM Products);
+
+CREATE OR ALTER PROCEDURE Cart_Crud
+    @Action NVARCHAR(10),
+    @CartId INT = NULL,
+    @ProductId INT = NULL,
+    @Quantity INT = NULL,
+    @UserId INT = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @Action = 'SELECT'
+    BEGIN
+        SELECT 
+            C.CartId,
+            C.ProductId,
+            P.Name AS Name,
+            P.ImageUrl AS ImageUrl,
+            P.Price,
+            P.Quantity AS PrdQty,
+            C.Quantity,
+            C.UserId
+        FROM Carts C
+        INNER JOIN Products P ON C.ProductId = P.ProductId
+        WHERE C.UserId = @UserId;
+    END
+    ELSE IF @Action = 'INSERT'
+    BEGIN
+        IF NOT EXISTS (SELECT 1 FROM Products WHERE ProductId = @ProductId)
+        BEGIN
+            RAISERROR ('Sản phẩm không tồn tại.', 16, 1);
+            RETURN;
+        END
+        IF EXISTS (SELECT 1 FROM Carts WHERE ProductId = @ProductId AND UserId = @UserId)
+        BEGIN
+            UPDATE Carts
+            SET Quantity = Quantity + @Quantity
+            WHERE ProductId = @ProductId AND UserId = @UserId;
+        END
+        ELSE
+        BEGIN
+            INSERT INTO Carts (ProductId, Quantity, UserId)
+            VALUES (@ProductId, @Quantity, @UserId);
+        END
+    END         
+    ELSE IF @Action = 'UPDATE'
+    BEGIN
+        UPDATE Carts
+        SET Quantity = @Quantity
+        WHERE ProductId = @ProductId AND UserId = @UserId;
+    END
+    ELSE IF @Action = 'DELETE'
+    BEGIN
+        DELETE FROM Carts WHERE ProductId = @ProductId AND UserId = @UserId;
+    END
+    ELSE IF @Action = 'GETBYID'
+    BEGIN
+        SELECT Quantity
+        FROM Carts
+        WHERE ProductId = @ProductId AND UserId = @UserId;
+    END
+END
+
+SELECT * FROM Products;
+
+INSERT INTO Products (Name, Description, Price, Quantity, ImageUrl, CategoryId, IsActive, CreatedDate)
+VALUES ('Sản phẩm mẫu 1', 'Mô tả sản phẩm mẫu 1', 100000, 50, 'sample1.jpg', 1, 1, GETDATE()),
+       ('Sản phẩm mẫu 2', 'Mô tả sản phẩm mẫu 2', 200000, 30, 'sample2.jpg', 1, 1, GETDATE());
+
+SELECT * FROM Products;
+SELECT C.*, P.Name, P.Quantity AS AvailableQuantity
+FROM Carts C
+INNER JOIN Products P ON C.ProductId = P.ProductId
+WHERE C.UserId = 1;
+
+CREATE OR ALTER PROCEDURE Product_Crud
+    @Action VARCHAR(20),
+    @ProductId INT = NULL,
+    @Name VARCHAR(100) = NULL,
+    @Description VARCHAR(MAX) = NULL,
+    @Price DECIMAL(10, 2) = NULL,
+    @Quantity INT = NULL,
+    @ImageUrl VARCHAR(MAX) = NULL,
+    @CategoryId INT = NULL,
+    @IsActive BIT = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @Action = 'SELECT'
+    BEGIN
+        SELECT ProductId, Name, Description, Price, Quantity, ImageUrl, CategoryId, IsActive, CreatedDate
+        FROM Products
+        WHERE IsActive = 1;
+    END
+    IF @Action = 'GETBYID'
+    BEGIN
+        IF EXISTS (SELECT 1 FROM Products WHERE ProductId = @ProductId AND IsActive = 1)
+        BEGIN
+            SELECT ProductId, Name, Description, Price, Quantity, ImageUrl, CategoryId, IsActive, CreatedDate
+            FROM Products
+            WHERE ProductId = @ProductId AND IsActive = 1;
+        END
+        ELSE
+        BEGIN
+            IF EXISTS (SELECT 1 FROM Products WHERE ProductId = @ProductId)
+            BEGIN
+                -- Sản phẩm tồn tại nhưng không hoạt động
+                RAISERROR ('Sản phẩm không hoạt động.', 16, 1);
+                RETURN;
+            END
+            ELSE
+            BEGIN
+                -- Sản phẩm không tồn tại
+                RAISERROR ('Sản phẩm không tồn tại.', 16, 1);
+                RETURN;
+            END
+        END
+    END
+    IF @Action = 'INSERT'
+    BEGIN
+        INSERT INTO Products(Name, Description, Price, Quantity, ImageUrl, CategoryId, IsActive, CreatedDate)
+        VALUES (@Name, @Description, @Price, @Quantity, @ImageUrl, @CategoryId, @IsActive, GETDATE());
+    END
+    IF @Action = 'UPDATE'
+    BEGIN
+        UPDATE Products
+        SET Name = @Name, Description = @Description, Price = @Price, Quantity = @Quantity,
+            ImageUrl = @ImageUrl, CategoryId = @CategoryId, IsActive = @IsActive
+        WHERE ProductId = @ProductId;
+    END
+    IF @Action = 'QTYUPDATE'
+    BEGIN
+        UPDATE Products
+        SET Quantity = @Quantity
+        WHERE ProductId = @ProductId;
+    END
+    IF @Action = 'DELETE'
+    BEGIN
+        DELETE FROM Products WHERE ProductId = @ProductId;
+    END
+END
+
+
+ALTER TABLE Orders
+ADD TotalPrice DECIMAL(18, 2) NULL;
+
+CREATE OR ALTER PROCEDURE Invoices
+    @Action VARCHAR(20),
+    @OrderNo VARCHAR(50) = NULL,
+    @ProductId INT = NULL,
+    @Quantity INT = NULL,
+    @UserId INT = NULL,
+    @Status VARCHAR(20) = NULL,
+    @PaymentId INT = NULL,
+    @OrderDate DATETIME = NULL,
+    @TotalPrice DECIMAL(18, 2) = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF @Action = 'INSERT'
+    BEGIN
+        INSERT INTO Orders (OrderNo, ProductId, Quantity, UserId, Status, PaymentId, OrderDate, TotalPrice)
+        VALUES (@OrderNo, @ProductId, @Quantity, @UserId, @Status, @PaymentId, @OrderDate, @TotalPrice);
+    END
+END
+
